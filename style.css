@@ -1,0 +1,49 @@
+.menu{
+    display:flex;
+    justify-content:space-between;
+}
+
+.bodyimg{
+    position:relative;
+}
+
+.bodyimg p{
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 5px 5px;
+    background-color: rgb(236, 240, 12);
+}
+
+.origami {
+    border-radius: 20px;
+
+    src:url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+    width:310px;
+    font-family: Comforter;
+    margin-left: 40px;
+    margin-top: 35px;
+}
+
+.origami:hover img{
+    background-color: rgb(42, 28, 231);
+    transform: scale(1.2);
+}
+
+a:link{
+    color:white;
+}
+a:visited{
+    color:rgb(255, 0, 0);
+}
+a{
+    text-decoration: none;
+}
